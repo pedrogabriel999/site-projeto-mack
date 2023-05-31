@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 30%;
+}
+
+nav {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #808080;
+    width: 100%;
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #808080;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+.logotipo {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 250px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    background-color: black;
+    color: red;
+}
+
+.voltar {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #808080;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sobre-nos {
+    display: flex;
+    margin: 50px;
+}
+
+.sobre-nos-texto {
+    width: 50%;
+    font-size: 18px;
+}
+
+.sobre-nos-posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.sobre-nos-poster {
+    margin: 10px;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
